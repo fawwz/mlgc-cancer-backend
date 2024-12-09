@@ -1,6 +1,6 @@
 const predictClassification = require('../services/inferenceService');
 const crypto = require('crypto');
-// const { storeData } = require('../services/storeData');
+const { storeData } = require('../services/storeData');
 const getAllData = require('../services/getAllData');
 const InputError = require('../exceptions/InputError');
 
